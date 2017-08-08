@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/Azure/app-insights-nozzle",
+	"ImportPath": "github.com/lizzha/application-insights-firehose-nozzle",
 	"GoVersion": "go1.8",
 	"GodepVersion": "v79",
 	"Packages": [
