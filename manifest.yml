@@ -1,0 +1,18 @@
+---
+applications:
+- name: ai_nozzle
+  memory: 512M
+  instances: 2 
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
+  no-route: true
+  health-check-type: none
+  env:
+    INSTRUMENT_KEY: CHANGE_ME
+    FIREHOSE_USER: CHANGE_ME
+    FIREHOSE_USER_PASSWORD: CHANGE_ME
+    API_ADDR: https://api.<CF_SYSTEM_DOMAIN>
+    DOPPLER_ADDR: wss://doppler.<CF_SYSTEM_DOMAIN>:443
+    SKIP_SSL_VALIDATION: true
+    IDLE_TIMEOUT: 60s
+    LOG_LEVEL: INFO # Valid log levels: DEBUG, INFO, ERROR
+

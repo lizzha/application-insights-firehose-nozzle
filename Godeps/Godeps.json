@@ -1,0 +1,104 @@
+{
+	"ImportPath": "github.com/Azure/app-insights-nozzle",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "code.cloudfoundry.org/lager",
+			"Rev": "438ab98cc3b9b81e97c2281422b2722cd8e80ed8"
+		},
+		{
+			"ImportPath": "github.com/alecthomas/template",
+			"Rev": "a0175ee3bccc567396460bf5acd36800cb10c49c"
+		},
+		{
+			"ImportPath": "github.com/alecthomas/template/parse",
+			"Rev": "a0175ee3bccc567396460bf5acd36800cb10c49c"
+		},
+		{
+			"ImportPath": "github.com/alecthomas/units",
+			"Rev": "2efee857e7cfd4f3d0138cc3cbb1b4966962b93a"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-community/go-cfclient",
+			"Rev": "7b15efc43291ece6f107ed34f9684ff5f6454de3"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/noaa",
+			"Comment": "v2.1.0",
+			"Rev": "a1d4a94e2be6711111893c59538976d07ef7ea98"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/noaa/consumer",
+			"Comment": "v2.1.0",
+			"Rev": "a1d4a94e2be6711111893c59538976d07ef7ea98"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/noaa/consumer/internal",
+			"Comment": "v2.1.0",
+			"Rev": "a1d4a94e2be6711111893c59538976d07ef7ea98"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/noaa/errors",
+			"Comment": "v2.1.0",
+			"Rev": "a1d4a94e2be6711111893c59538976d07ef7ea98"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/sonde-go/events",
+			"Rev": "5f5bca3bcb61dbf9371b8db82497c6396cc0ea9b"
+		},
+		{
+			"ImportPath": "github.com/gogo/protobuf/gogoproto",
+			"Comment": "v0.4-42-g459aee4",
+			"Rev": "459aee492508c625ec53236f7be021cfa3df35e3"
+		},
+		{
+			"ImportPath": "github.com/gogo/protobuf/proto",
+			"Comment": "v0.4-42-g459aee4",
+			"Rev": "459aee492508c625ec53236f7be021cfa3df35e3"
+		},
+		{
+			"ImportPath": "github.com/gogo/protobuf/protoc-gen-gogo/descriptor",
+			"Comment": "v0.4-42-g459aee4",
+			"Rev": "459aee492508c625ec53236f7be021cfa3df35e3"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Comment": "v1.2.0-6-ga69d9f6",
+			"Rev": "a69d9f6de432e2c6b296a947d8a5ee88f68522cf"
+		},
+		{
+			"ImportPath": "github.com/jjjordanmsft/ApplicationInsights-Go/appinsights",
+			"Comment": "v0.1.0-alpha-11-ga8df886",
+			"Rev": "a8df88639bc80fcb39c17922c01064fdaf4239ae"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "945ddfdd3bb885ce838728b0169bf94ae76970c8"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context/ctxhttp",
+			"Rev": "945ddfdd3bb885ce838728b0169bf94ae76970c8"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "9a379c6b3e95a790ffc43293c2a78dee0d7b6e20"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2/clientcredentials",
+			"Rev": "9a379c6b3e95a790ffc43293c2a78dee0d7b6e20"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2/internal",
+			"Rev": "9a379c6b3e95a790ffc43293c2a78dee0d7b6e20"
+		},
+		{
+			"ImportPath": "gopkg.in/alecthomas/kingpin.v2",
+			"Comment": "v2.2.5",
+			"Rev": "1087e65c9441605df944fb12c33f0fe7072d18ca"
+		}
+	]
+}
